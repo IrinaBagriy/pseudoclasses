@@ -1,0 +1,26 @@
+.contener{
+    width: 560px;
+background-color: aquamarine;
+
+}
+.contener:hover{
+    background-color: chartreuse;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+}
+.box::after{
+    content: "";
+    background-color: greenyellow;
+    margin-left: 15px;
+}
+.box:hover{
+    background-color: hotpink;
+}
+.box::after{
+    content: "uhfihw";
+    margin-left: 25px;
+}
